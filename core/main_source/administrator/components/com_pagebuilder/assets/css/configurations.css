@@ -1,0 +1,14 @@
+.jsn-page-configuration label#jsnconfig_rules-lbl{
+    display: none;
+}
+.form-horizontal #jsnconfig-rules-field .controls{
+    margin-left: 0;
+}
+.form-horizontal fieldset > legend{
+    display: none;
+}
+.jsn-master #global-parameter-general fieldset label{
+    width: auto;
+    float: left;
+    margin-right: 30px;
+}

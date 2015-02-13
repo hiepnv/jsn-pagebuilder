@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="jsnpagebuilder" method="upgrade">
+    <name>JSN PageBuilder extended - com_advancedmodules</name>
+    <author>JoomlaShine.com</author>
+    <creationDate>@creationDate</creationDate>
+    <authorEmail>support@joomlashine.com</authorEmail>
+    <authorUrl>http://www.joomlashine.com</authorUrl>
+    <copyright>Copyright (c) 2012 - JoomlaShine.com</copyright>
+    <license>GNU/GPL v2 http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <version>@version</version>
+    <description>Support extension com_advancedmodules in site manager PageBuilder</description>
+    <scriptfile>subinstall.php</scriptfile>
+    <files>
+        <filename plugin="advancedmodules">advancedmodules.php</filename>
+        <filename>index.html</filename>
+        <filename>subinstall.php</filename>
+    </files>
+</extension>
